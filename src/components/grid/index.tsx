@@ -1,7 +1,6 @@
 import React, { FC, Children } from "react"
 
-import { GRID } from "typings"
-import { fillGrid, createFullGrid } from "utils"
+import { createFullGrid } from "utils"
 
 import Block from "./block"
 import { Container, Row } from "./styles"
