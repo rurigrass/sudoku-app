@@ -7,7 +7,7 @@ interface IInput {
 }
 
 /**
- * A function that remains true if the value is already being used in the current grid col.
+ * A function that returns true if the value is already being used in the current grid column.
  * @param input Object with 9x9 Sudoku Grid, col index and value
  * @returns
  */
